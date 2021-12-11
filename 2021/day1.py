@@ -8,7 +8,7 @@ def part1(depths):
     return count
 
 def main():
-    print(part1([int(x) for x in open('day1.input')]))
+    print(part1([int(x) for x in open('./inputs/day1.input')]))
 
 if __name__ == '__main__':
     main()

@@ -17,7 +17,7 @@ def part1(directions):
     return x*y
 
 def main():
-    print(part1([str(x) for x in open('day2.input')]))
+    print(part1([str(x) for x in open('./inputs/day2.input')]))
 
 if __name__ == '__main__':
     main()
