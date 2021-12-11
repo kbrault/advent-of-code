@@ -7,6 +7,9 @@ def part1(depths):
         previous = depth
     return count
 
+def part2():
+    print("TODO")
+
 def main():
     print(part1([int(x) for x in open('./inputs/day1.input')]))
 

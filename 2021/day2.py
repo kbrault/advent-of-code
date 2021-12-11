@@ -1,6 +1,4 @@
 from io import StringIO
-from os import X_OK
-
 
 import re
 
@@ -15,6 +13,9 @@ def part1(directions):
         elif("up" in direction):
             y -= d
     return x*y
+
+def part2():
+    print("TODO")
 
 def main():
     print(part1([str(x) for x in open('./inputs/day2.input')]))
