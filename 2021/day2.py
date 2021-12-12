@@ -1,5 +1,3 @@
-from io import StringIO
-
 import re
 
 def part1(directions):
@@ -10,7 +8,7 @@ def part1(directions):
             x += d
         elif("down" in direction):
             y += d
-        elif("up" in direction):
+        elif("up" in direction):  
             y -= d
     return x*y
 
@@ -18,7 +16,8 @@ def part2():
     print("TODO")
 
 def main():
-    print(part1([str(x) for x in open('./inputs/day2.input')]))
+    input = [str(x) for x in open('./inputs/day2.input')]
+    print(part1(input))
 
 if __name__ == '__main__':
     main()
