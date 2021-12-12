@@ -10,8 +10,8 @@ def part1(depths):
 def part2(depths):
     previous = sum(depths[:3])
     count = 0
-    for i in range(1, len(depths) - 2):
-        current = sum(depths[i:i + 3])
+    for depth in range(1, len(depths) - 2):
+        current = sum(depths[depth:depth + 3])
         if current > previous:
             count += 1
         previous = current
